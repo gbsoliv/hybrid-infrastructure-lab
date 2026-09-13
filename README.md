@@ -1,7 +1,11 @@
-# ☁️ Hybrid Infrastructure Lab
+# Hybrid Infrastructure Lab
 
-## Project Goal 
+## 🎯 Project Goal 
 Build a simulated business IT environment to develop practical experience with systems administration, networking, cloud technologies, security, and automation.
+
+## 🏗️ Architecture
+
+<img width="1225" height="1155" alt="Hybrid Infrastructure Lab Architecture" src="https://github.com/user-attachments/assets/42048ba7-2484-41e4-9b88-45f514f6e1da" />
 
 ## 🛠️ Planned Technologies
 * VMware
