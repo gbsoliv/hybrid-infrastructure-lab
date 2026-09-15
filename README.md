@@ -19,6 +19,10 @@ Build a simulated business IT environment to develop practical experience with s
 * Microsoft Azure & Entra ID
 * Network security and VPN
 
-## 🚧 Project Status
-### In Progress
-The environment will be built and documented incrementally, including architecture decisions, configurations, validation, automation, and troubleshooting scenarios.
+## 🏢 Environment
+
+This lab extends the fictional **Vertex Solutions** enterprise environment 
+by adding systems administration, identity, cloud, and automation services.
+
+It complements the existing Enterprise Campus Network project, which
+focuses on the underlying Cisco network infrastructure.
