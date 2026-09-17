@@ -1,7 +1,7 @@
 # Hybrid Infrastructure Lab
 
 ## 🎯 Project Goal 
-Build a simulated business IT environment to develop practical experience with systems administration, networking, cloud technologies, security, and automation.
+Expand the existing Vertex Solutions enterprise environment by adding systems administration, identity, cloud, and automation services.
 
 ## 🏗️ Architecture
 
@@ -19,10 +19,3 @@ Build a simulated business IT environment to develop practical experience with s
 * Microsoft Azure & Entra ID
 * Network security and VPN
 
-## 🏢 Environment
-
-This lab extends the fictional **Vertex Solutions** enterprise environment 
-by adding systems administration, identity, cloud, and automation services.
-
-It complements the existing Enterprise Campus Network project, which
-focuses on the underlying Cisco network infrastructure.
