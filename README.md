@@ -2,10 +2,11 @@
 
 ## 🎯 Project Goal 
 Expand the existing Vertex Solutions enterprise environment by adding systems administration, identity, cloud, and automation services.
+Vertex (campus network): github.com/gbsoliv/enterprise-campus-network-vertex
 
 ## 🏗️ Architecture
 
-<img width="1225" height="1155" alt="Hybrid Infrastructure Lab Architecture" src="https://github.com/user-attachments/assets/42048ba7-2484-41e4-9b88-45f514f6e1da" />
+<img width="1536" height="1024" alt="diagram" src="https://github.com/user-attachments/assets/39e43414-6505-4297-97b7-857f5ae70995" />
 
 ## 🛠️ Planned Technologies
 * VMware
