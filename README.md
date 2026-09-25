@@ -2,7 +2,8 @@
 
 ## 🎯 Project Goal 
 Expand the existing Vertex Solutions enterprise environment by adding systems administration, identity, cloud, and automation services.
-Vertex (campus network): github.com/gbsoliv/enterprise-campus-network-vertex
+
+* [Vertex Solutions Enterprise Network](https://github.com/gbsoliv/enterprise-campus-network-vertex)
 
 ## 🏗️ Architecture
 
