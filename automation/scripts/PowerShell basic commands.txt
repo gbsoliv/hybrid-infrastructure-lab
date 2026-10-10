@@ -1,0 +1,29 @@
+Essential PowerShell Commands
+
+Get     → obter
+New     → criar
+Set     → modificar/configurar
+Remove  → remover
+Start   → iniciar
+Stop    → parar
+Test    → testar
+
+
+
+Get-Help	Descobrir como um comando funciona	Get-Help New-ADUser -Examples
+Get-Command	Encontrar comandos disponíveis	        Get-Command *ADUser*
+Get-Location	Mostrar o diretório atual	        Get-Location
+Set-Location / cd	Mudar de diretório	        cd C:\Scripts
+Get-ChildItem / ls	Listar arquivos e pastas	Get-ChildItem
+New-Item	Criar arquivo ou pasta	                New-Item -ItemType Directory Test
+Copy-Item	Copiar arquivo ou pasta	                Copy-Item file.txt C:\Backup
+Move-Item	Mover arquivo ou pasta	                Move-Item file.txt C:\Scripts
+Remove-Item	Excluir arquivo ou pasta	        Remove-Item file.txt
+Get-Content	Ler o conteúdo de um arquivo	        Get-Content users.csv
+Select-Object	Selecionar propriedades específicas	Get-Process | Select Name,Id
+Where-Object	Filtrar objetos	                        Get-Service | Where Status -eq "Running"
+Sort-Object	Ordenar objetos	                        Get-Process | Sort CPU
+ForEach-Object	Executar uma ação para cada objeto	... | ForEach-Object {...}
+Import-Csv	Importar dados de um arquivo CSV	Import-Csv users.csv
+Export-Csv	Exportar objetos para um arquivo CSV	... | Export-Csv result.csv
+
