@@ -74,8 +74,8 @@ The lab also included troubleshooting network connectivity, DNS resolution, doma
 
 ## Repository Structure
 
-- `systems/` — Windows infrastructure implementation and validation
-- `automation/` — PowerShell scripts, examples, and supporting files
+- `systems/` — Infrastructure implementation and validation.
+- `systems/07-automation/` — PowerShell scripts and Active Directory automation exercises.
 
 ## Key Takeaways
 
