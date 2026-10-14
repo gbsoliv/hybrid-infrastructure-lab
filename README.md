@@ -1,5 +1,5 @@
 
-# Hybrid Enterprise IT Infrastructure Lab | Vertex Solutions.
+# Hybrid Enterprise IT Infrastructure Lab | Vertex Solutions
 
 **Windows Server, Active Directory & PowerShell**
 
