@@ -1,48 +1,41 @@
-# Windows Client
+
+# 04 — Windows Client
 
 ## Objective
 
-Deploy a Windows 11 client and integrate it with the Vertex Solutions
-Active Directory environment.
+Deploy a Windows 11 client and integrate it with the Vertex Solutions Active Directory domain.
 
 ## Implementation
 
-- Deployed a Windows 11 Pro virtual machine using VMware Workstation.
-- Connected the client to the `VMnet10` network.
+- Deployed Windows 11 Pro using VMware Workstation.
+- Connected `CLIENT01` to the `VMnet10` virtual network.
 - Configured static IPv4 addressing and internal DNS.
-- Validated connectivity with the Domain Controller and external networks.
-- Verified Active Directory service discovery through DNS SRV records.
+- Verified connectivity with the Domain Controller.
 - Joined `CLIENT01` to the `corp.vertex.test` domain.
 
-## Network Configuration
+## Configuration
 
 | Setting | Value |
 |---|---|
-| Hostname | CLIENT01 |
-| IPv4 Address | 10.10.20.30 |
-| Subnet Mask | 255.255.255.0 |
-| Default Gateway | 10.10.20.2 |
-| DNS Server | 10.10.20.10 |
-| Domain | corp.vertex.test |
+| Hostname | `CLIENT01` |
+| Initial IPv4 Address | `10.10.20.30` |
+| Subnet Mask | `255.255.255.0` |
+| Default Gateway | `10.10.20.2` |
+| DNS Server | `10.10.20.10` |
+| Domain | `corp.vertex.test` |
+
+The client was later configured to obtain its network settings through DHCP.
 
 ## Validation
 
-The client successfully:
-
-- Reached `DomainController01` at `10.10.20.10`.
-- Accessed external networks through the VMware NAT gateway.
-- Resolved internal and external DNS names.
-- Located the Domain Controller using Active Directory DNS SRV records.
-- Joined the `corp.vertex.test` Active Directory domain.
+- Confirmed connectivity to the Domain Controller and external networks.
+- Verified internal and external DNS resolution.
+- Validated Active Directory service discovery through DNS SRV records.
+- Confirmed successful domain membership.
 
 ## Troubleshooting
 
-The initial domain join failed because the DNS service discovery query
-was tested using an incorrect SRV record path.
+An initial DNS service discovery test used an incorrect SRV record path.
 
-The correct Active Directory SRV record:
+The correct record, `_ldap._tcp.dc._msdcs.corp.vertex.test`, successfully resolved to the Domain Controller on LDAP port 389.
 
-`_ldap._tcp.dc._msdcs.corp.vertex.test`
-
-successfully resolved to `domaincontroller01.corp.vertex.test` on LDAP
-port 389, confirming that the Domain Controller could be discovered.
