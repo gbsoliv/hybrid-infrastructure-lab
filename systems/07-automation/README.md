@@ -1,30 +1,31 @@
-# PowerShell Automation
+
+# 07 — PowerShell Automation
 
 ## Objective
 
-Practice Active Directory administration using PowerShell to automate user and security group management.
+Practice Active Directory administration using PowerShell to automate repetitive user and security group management tasks.
 
 ## Implementation
 
-- Created departmental security groups using arrays and foreach.
-
-- Configured Global Security groups within the Vertex Groups OU.
-
-- Created an Active Directory user using New-ADUser.
-
-- Configured an initial password and enabled the user account.
-
-- Required a password change at first logon.
-
-- Practiced adding users to departmental security groups.
+- Created departmental Global Security groups using arrays and `foreach` loops.
+- Organized groups within the `Vertex > Groups` OU.
+- Created Active Directory users with department and job title attributes.
+- Configured initial passwords and enabled user accounts.
+- Required users to change their passwords at first logon.
+- Practiced assigning individual users to departmental security groups.
+- Used `-WhatIf` to simulate changes before execution.
 
 ## Validation
 
-Used PowerShell commands to verify Active Directory objects and configurations:
+- Used `Get-ADGroup` to verify security group properties.
+- Used `Get-ADUser` to verify user attributes and account status.
+- Used `Get-ADGroupMember` to inspect group membership.
 
-Get-ADGroup — Verify group creation and properties.
+## Key Concepts
 
-Get-ADUser — Verify user attributes and account status.
-
-Get-ADGroupMember — Verify group membership.
-
+- PowerShell arrays and `foreach` loops
+- Conditional statements (`if/else`)
+- Splatting
+- Active Directory user provisioning
+- Security group management
+- Account configuration and validation
