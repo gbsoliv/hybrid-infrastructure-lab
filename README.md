@@ -43,17 +43,18 @@ The project focuses on deploying, configuring, troubleshooting, and validating W
 - **Networking:** DNS, DHCP, IPv4, NAT
 - **Management:** Group Policy, PowerShell
 
+
 ## Implementation
 
 | Stage | Component | Description |
 |---|---|---|
-| 01 | Virtualization & Windows Server | Deployed Windows Server in VMware |
-| 02 | Active Directory | Configured the domain, users, groups, and OUs |
-| 03 | DNS | Configured internal and external name resolution |
-| 04 | Windows Client | Joined Windows 11 to the domain |
-| 05 | DHCP | Configured automatic IP address assignment |
-| 06 | Group Policy | Applied and validated centralized user restrictions |
-| 07 | PowerShell Automation | Practiced user provisioning and security group management |
+| [01](systems/01-virtualization-windows-server/) | Virtualization & Windows Server | Deployed Windows Server in VMware |
+| [02](systems/02-active-directory/) | Active Directory | Configured the domain, users, groups, and OUs |
+| [03](systems/03-dns/) | DNS | Configured internal and external name resolution |
+| [04](systems/04-windows-client/) | Windows Client | Joined Windows 11 to the domain |
+| [05](systems/05-dhcp/) | DHCP | Configured automatic IP address assignment |
+| [06](systems/06-group-policy/) | Group Policy | Applied and validated centralized user restrictions |
+| [07](systems/07-automation/) | PowerShell Automation | Practiced user provisioning and security group management |
 
 ## Environment
 
